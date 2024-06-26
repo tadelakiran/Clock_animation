@@ -1,0 +1,206 @@
+body{
+    background:linear-gradient(rgb(84, 138, 224) , rgb(4, 4, 75));
+}
+#outer
+{
+    width: 700px;
+    height: 650px;
+    border: 5px solid black;
+    border-radius: 100%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 9, 9);
+    box-shadow: 0px 0px 5px 5px grey;
+}
+#outer1
+{
+    width: 650px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+  }
+  #twe{
+     color: black;
+     font-size: 72px;
+     position: absolute;
+     top: -50px;
+     left: 270px;
+
+  }
+  #six{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+    bottom: -50px;
+    left: 290px;
+
+ }
+ #nine{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     left: 20px;
+     top: 200px;
+
+ }
+ #three{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     right: 20px;
+     top: 200px;
+ }
+ #one{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     right: 180px;
+     top: -20px;
+ }
+ #two{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     right:80px;
+     top: 70px;
+ }
+ #four{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     right: 100px;
+     top: 320px;
+ }
+ #five{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     right: 190px;
+     top: 410px;
+ }
+ #seven{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     left: 160px;
+     top: 410px;
+ }
+ #eight{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     left: 80px;
+     top: 320px;
+ }
+ #ten{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+     left: 50px;
+     top: 90px;
+ }
+ #ele{
+    color: black;
+    font-size: 72px;
+    position: absolute;
+    left: 120px;
+    top: -15px;
+ }
+
+ #hour
+ {
+    height: 8px;
+    width: 40%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+    animation-name: rHour ;
+    animation-duration:43200s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     transform-origin: 80% 50%;
+     box-shadow: 0px 0px 2px 2px grey;
+
+  }
+ #seconds{
+    height: 3px;
+    width: 50%; 
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    animation-name: rSecond ;
+    animation-duration:60s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     transform-origin: 80% 50%;
+     box-shadow: 0px 0px 2px 2px grey;
+  }
+ #minutes{
+    height: 6px;
+    width: 50%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    animation-name: rMinute;
+    animation-duration:3600s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     transform-origin: 80% 50%;
+     box-shadow: 0px 0px 2px 2px grey;
+
+ 
+ }
+ #center1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 5px solid black;
+ }
+ #center
+ {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: brown;
+  }
+ @keyframes rHour {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+@keyframes rMinute {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+@keyframes rSecond {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+ 
